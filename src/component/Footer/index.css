@@ -1,0 +1,27 @@
+/* .img{
+    height: 10vh;
+    width: 200vw;
+}
+.logo-container{
+    width: 45%;
+}
+ */
+
+
+ .logo-img {
+    height: 50px; /* Adjust height as needed */
+    width: auto;  /* Maintain aspect ratio */
+}
+
+.logo-container {
+    max-width: 300px; /* Adjust width to fit well */
+}
+
+.footer-container {
+    padding: 20px;
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+.text-muted {
+    color: #6c757d; /* Muted gray color */
+}

@@ -1,0 +1,47 @@
+/* Centering the entire search bar */
+.search-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Space between search bar and close button */
+    padding: 16px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+/* Styling the search container */
+.search-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    border-radius: 50px;
+    width: 50%;
+    max-width: 500px;
+    position: relative;
+    background-color: white;
+}
+
+/* Input styling */
+.search-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Search icon */
+.search-icon {
+    width: 18px;
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+}
+
+/* Close (X) icon - placed outside */
+.close-icon-outside {
+    width: 20px;
+    cursor: pointer;
+}

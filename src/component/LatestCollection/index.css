@@ -1,0 +1,12 @@
+.my-10 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+.product-item img {
+  width: 100%;  /* Makes the image responsive */
+  height: auto; /* Keeps the aspect ratio */
+  object-fit: cover; /* Ensures the image looks good */
+}
+

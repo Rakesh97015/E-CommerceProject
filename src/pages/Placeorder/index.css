@@ -1,0 +1,72 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-top: 1.25rem;
+  min-height: 80vh;
+  border-top: 1px solid #000;
+}
+
+@media (min-width: 640px) {
+  .container {
+    flex-direction: row;
+    padding-top: 3.5rem;
+  }
+}
+
+.div-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+
+.inputcss,
+.input-field {
+  border: 1px solid gray;
+  border-radius: 0.375rem;
+  padding: 0.375rem 0.875rem;
+  width: 100%;
+}
+
+.inputcss {
+  width: 41%;
+}
+
+.input-field {
+  width: 82%;
+}
+
+.payment-option {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #d1d5db;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.payment-option:hover {
+  border-color: black;
+}
+
+.custom-circle {
+  width: 14px;
+  height: 14px;
+  border: 1px solid black;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.payment-container {
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  display: block;
+}
